@@ -1,37 +1,148 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="tw">
 
-You can use the [editor on GitHub](https://github.com/clairejialing/homework/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+<meta charset="utf-8">
+<title>Follow 覓</title>
+<meta name="description" content="旅行足跡/超推景點介紹">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<h1>Follow覓</h1>
+<nav class="navigation">
+<li><a href="#profile">自我介紹</a></li>
+<li><a href="#concert">前言簡介</a></li>
+<li><a href="project.htm">相片集</a></li>
+<li><a href="book.xml">地圖寶藏</a></li>
+<li><a href="https://www.google.com.tw/maps/@23.546162,120.6402133,8z?hl=zh-TW" target="_blank">googlemap</a></li>
+<li><a href="https://map.baidu.com/" target="_blank">百度地圖</a></li>
+</ul>
+</nav>
+</header>
+<main>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div class="mainvisual">
+<img src="mainvisual.png" alt="主視覺圖片"width="740" height="340">
+</div>
+<article id="profile">
+<div class="inner">
+<h2>自我介紹</h2>
+<p>Follow 覓
 
-### Markdown
+</article>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<article id="concert">
+<h2>前言簡介</h2>
+<p>前言</p>
+<section>
+<h3>起承轉合</h3>
+<table>
+<tr>
+<th>.....</th>
+<td>*****</td>
+</tr>
+<tr>
+<th>.....</th>
+<td>*****</td>
+</tr>
+</table>
+</section>
 
-```markdown
-Syntax highlighted code block
+<section>
+<h3>起承轉合</h3>
+<section class="performer">
+<img src="performer-01.png" width="150" height="150">
+  <h4>導覽</h4>
+<p>說明</p>
+</section>
+<section class="performer">
+<img src="performer-02.png" width="150" height="150">
+  <h4>導覽</h4>
+<p>說明</p>
+</section>
+<section class="performer">
+<img src="performer-03.png" width="150" height="150">
+  <h4>導覽</h4>
+<p>說明</p>
+</section>
+<section class="performer">
+<img src="performer-04.png" width="150" height="150">
+  <h4>導覽</h4>
+<p>說明</p>
+</section>
+</section>
 
-# Header 1
-## Header 2
-### Header 3
+<sectuion>
+<h3>私房景點</h3>
+<ol>
+<li>a</li>
+<li>b</li>
+<li>c</li>
+<li>d</li>
+</ol>
+</section>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+</article>
+</main>
+<footer>
+<p class="pagetop"><a href="#top">回到首頁</a></p>
+<p class="copyright"><small>&copy;CopyRight 2020 Follow 覓</small></a></p>
+</footer>
+</body>
+</html>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/clairejialing/homework/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<title></title>
+<head>回饋表單</head>
+
+<form action="https://taiwanstay.net.tw/"method="GET">
+<input type="text"name="category">
+<input type="submit"value="搜尋">
+</form>
+
+<br>
+<form action="https://taiwanstay.net.tw/"method="GET">
+<select name="category">
+<option value="a ">合法旅宿</option>
+<option value="b">訂房快搜</option>
+<option value="c">地圖快搜</option>
+<option value="d">旅宿行政資訊</option>
+<option value="e"selected>業者專區</option>
+</select>
+<input type="submit"value="搜尋">
+</form>
+
+<br>
+<form action="https://www.miu-star.com.tw/v2/Search"method="GET">
+<input type="text"name="key">
+<input type="hidden"name="cat" value="shopId=1317">
+<input type="submit"value="搜尋你想要的衣服款式">
+</form>
+
+<form action="我有疑問">
+<p>姓名:<input type="text" name="username" placeholder="請輸入姓名" required autofocus></p>
+<p>信箱<input type="email" name="email"></p>
+<p>電話<input type="tel" name="tel"></p>
+<p>希望收到回覆的日期<input type="date" name="date"></p>
+
+
+
+
+
+
+::: 網站導覽
+首頁
+合法旅宿
+訂房快搜
+地圖快搜
+旅宿行政資訊
+業者專區
+LANGUAGE
+
